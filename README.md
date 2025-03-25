@@ -1,3 +1,7 @@
+# This fork
+
+This fork is at version 8 on main, with the package.json adjusted to allow React 19.
+
 # React DayPicker
 
 [DayPicker](http://react-day-picker.js.org) is a date picker component for [React](https://reactjs.org). Renders a monthly calendar to select days. DayPicker is customizable, works great with input fields and can be styled to match any design.
