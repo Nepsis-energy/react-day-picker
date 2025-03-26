@@ -19,7 +19,8 @@
   "style": "dist/style.css",
   "scripts": {
     "prepublish": "pnpm build",
-    "build": "rimraf dist && rollup -c",
+    "build": "echo 'build disabled in ci, please build locally and commit the dist folder'",
+    "build-force": "rimraf dist && rollup -c",
     "build-watch": "rollup -c -w",
     "lint": "eslint .",
     "test": "jest",
