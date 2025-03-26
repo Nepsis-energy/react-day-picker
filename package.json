@@ -1,6 +1,6 @@
 {
   "name": "react-day-picker",
-  "version": "8.10.1",
+  "version": "8.10.2",
   "description": "Customizable Date Picker for React",
   "author": "Giampaolo Bellavite <io@gpbl.dev>",
   "homepage": "http://react-day-picker.js.org",
@@ -18,7 +18,7 @@
   "types": "dist/index.d.ts",
   "style": "dist/style.css",
   "scripts": {
-    "prepublish": "pnpm build",
+    "prepublish-force": "pnpm build",
     "build": "echo 'build disabled in ci, please build locally and commit the dist folder'",
     "build-force": "rimraf dist && rollup -c",
     "build-watch": "rollup -c -w",
